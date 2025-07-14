@@ -4,9 +4,10 @@
 ![GitHub stars](https://img.shields.io/github/stars/xiesiya/miRNA-disease-association-methods?color=red) 
 ![GitHub forks](https://img.shields.io/github/forks/xiesiya/miRNA-disease-association-methods?color=green&label=Fork)
 
-<p align="center"> 
+<p align="center">
   Visitor count<br>
-  <img src="https://profile-counter.glitch.me/xiesiya.miRNA-disease-association-methods/count.svg" />
+  <img alt="visitor badge"
+       src="https://komarev.com/ghpvc/?username=xiesiya&label=Visitors&color=red&style=flat-square" />
 </p>
 
 ## What is miRNA?
