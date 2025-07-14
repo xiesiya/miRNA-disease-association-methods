@@ -1,9 +1,13 @@
 # 🏎💨From Biogenesis to Algorithms: A Holistic Review of miRNA-Disease Prediction Computational Methods with Experimental Benchmarking
+
+<a href='https://github.com/xiesiya/miRNA-disease-association-methods/blob/main/README.md'></a>
+![GitHub stars](https://img.shields.io/github/stars/xiesiya/miRNA-disease-association-methods?color=red) 
+![GitHub forks](https://img.shields.io/github/forks/xiesiya/miRNA-disease-association-methods?color=green&label=Fork)
+
 <p align="center"> 
   Visitor count<br>
-  <img src="https://img.shields.io/badge/dynamic/json?color=blue&label=Visitors&query=value&url=https://api.countapi.xyz/hit/xiesiya.miRNA-disease-association-methods/readme" />
+  <img src="https://profile-counter.glitch.me/xiesiya.miRNA-disease-association-methods/count.svg" />
 </p>
-
 
 ## What is miRNA?
 RNA can be divided into two categories based on its coding function: (1) RNAs with coding potential, and (2) RNAs without coding potential, also known as non-coding RNA (ncRNA), which includes microRNAs (miRNA), snoRNAs, circRNAs and lncRNAs. MiRNAs are a major class of important small non-coding RNAs with lengths of approximately 20-25 nucleotides. An increasing number of miRNAs have been found to be abnormally expressed in human diseases and play a critical role in tumor development.
