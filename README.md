@@ -1,11 +1,7 @@
 # 🏎💨From Biogenesis to Algorithms: A Holistic Review of miRNA-Disease Prediction Computational Methods with Experimental Benchmarking
-<a href='https://github.com/xiesiya/miRNA-disease-association-methods/blob/main/README.md'></a>
-![GitHub stars](https://img.shields.io/github/stars/xiesiya/miRNA-disease-association-methods?color=red) 
-![GitHub forks](https://img.shields.io/github/forks/xiesiya/miRNA-disease-association-methods?color=green&label=Fork)
-
 <p align="center"> 
   Visitor count<br>
-  <img src="https://profile-counter.glitch.me/xiesiya.miRNA-disease-association-methods/count.svg" />
+  <img src="https://img.shields.io/badge/dynamic/json?color=blue&label=Visitors&query=value&url=https://api.countapi.xyz/hit/xiesiya.miRNA-disease-association-methods/readme" />
 </p>
 
 
