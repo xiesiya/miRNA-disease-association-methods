@@ -16,7 +16,7 @@ RNA can be divided into two categories based on its coding function: (1) RNAs wi
 ## Overview
 * We collect miRNA- and disease-related databases for MDA prediction, including miRNA-disease association databases, miRNA-related databases, and disease-related databases. 
 * We provide the first a comprehensive overview of 67 MDA prediction methods, classify them into five categories, as shown below figure 1.
-![classification](https://github.com/user-attachments/assets/4e4202c0-43dd-49dc-8951-9763aaa6ee20)
+<img width="1564" height="1044" alt="classification" src="https://github.com/user-attachments/assets/a981ca2c-8e2e-42a9-a058-8e61bc3e7876" />
 Fig 1: Classification of computational methods for MDA prediction. 
 
 ## Data resources
@@ -111,7 +111,8 @@ Fig 1: Classification of computational methods for MDA prediction.
 - Others
     
     1. 【RLSMDA (Chen et al., 2014)】Chen X, Yan G Y. Semi-supervised learning for potential human microRNA-disease associations inference[J]. Scientific reports, 2014, 4(1): 5501.   [[Download]](https://www.nature.com/articles/srep05501)
-    2. 【DWMDA (Luo et al., 2025)】Ha J. DeepWalk-Based Graph Embeddings for miRNA–Disease Association Prediction Using Deep Neural Network[J]. Biomedicines, 2025, 13(3): 536.MDPI   [[Download]](https://www.mdpi.com/2227-9059/13/3/536) 
+    2. 【DWMDA (Luo et al., 2025)】Ha J. DeepWalk-Based Graph Embeddings for miRNA–Disease Association Prediction Using Deep Neural Network[J]. Biomedicines, 2025, 13(3): 536.MDPI   [[Download]](https://www.mdpi.com/2227-9059/13/3/536)
+    3. 【PCACFMDA  (Zhang et al., 2024)】Zhang C, Li Y, Dong Y, et al. Prediction of miRNA-disease associations based on PCA and cascade forest[J]. BMC bioinformatics, 2024, 25(1): 386.   [[Download]](https://link.springer.com/article/10.1186/s12859-024-05999-w)   [[Code]](https://github.com/zhtdbobo/PCACFMDA) 
 
 ### Deep Learning-based Methods
     
@@ -136,16 +137,15 @@ Fig 1: Classification of computational methods for MDA prediction.
     
     1. 【EPMDA (Dong et al., 2019)】Dong Y, Sun Y, Qin C, et al. EPMDA: edge perturbation based method for miRNA-disease association prediction[J]. IEEE/ACM Transactions on Computational Biology and Bioinformatics, 2019, 17(6): 2170-2175.   [[Download]](https://ieeexplore.ieee.org/abstract/document/8827911/)  [[Code]](https://github.com/DYDGitHub/EPMDA)
     2. 【MvKFN-MDA (Dong et al., 2021)】Li J, Liu T, Wang J, et al. MvKFN-MDA: Multi-view Kernel Fusion Network for miRNA-disease association prediction[J]. Artificial Intelligence in Medicine, 2021, 118: 102115.    [[Download]](https://www.sciencedirect.com/science/article/abs/pii/S0933365721001081)
-    3. 【PCACFMDA  (Zhang et al., 2024)】Zhang C, Li Y, Dong Y, et al. Prediction of miRNA-disease associations based on PCA and cascade forest[J]. BMC bioinformatics, 2024, 25(1): 386.   [[Download]](https://link.springer.com/article/10.1186/s12859-024-05999-w)   [[Code]](https://github.com/zhtdbobo/PCACFMDA) 
 
-### Graph Network-based Methods
+### Graph Neural Network-based Methods
     
 - Graph Convolutional Network (GCN)
     
     1. 【NIMCGCN (Li et al., 2020)】 Li J, Zhang S, Liu T et al. Neural inductive matrix completion with graph convolutional networks for miRNA-disease association prediction, Bioinformatics 2020;36(8):2538-2546. [[Download]](https://academic.oup.com/bioinformatics/article/36/8/2538/5697092) [[Code]](https://github.com/ljatynu/NIMCGCN/)
     2. 【MMGCN (Tang et al., 2021)】 Tang X, Luo J, Shen C et al. Multi-view Multichannel Attention Graph Convolutional Network for miRNA–disease association prediction, Briefings in Bioinformatics 2021;22(6). [[Download]](https://academic.oup.com/bib/article-abstract/22/6/bbab174/6271996) [[Code]](https://github.com/Txinru/MMGCN)
-    3. 【MGCNSS (Li et al., 2024)】Tian Z, Han C, Xu L, et al. Mgcnss: mirna–disease association prediction with multi-layer graph convolution and distance-based negative sample selection strategy[J]. Briefings in Bioinformatics, 2024, 25(3): bbae168.   [[Download]](https://academic.oup.com/bib/article/25/3/bbae168/7645839?login=false) [[Code]](https://github.com/15136943622/MGCNSS/tree/master)
-    4. 【MHMDA (Li et al., 2025)】Li R, Ning Q, aomiao Zhao Y, et al. MHMDA:“Similarity-Association-Similarity” Metapaths and Heterogeneous-Hyper Network Learning for MiRNA-Disease Association Prediction[J]. IEEE Transactions on Computational Biology and Bioinformatics, 2025.   [[Download]](https://ieeexplore.ieee.org/abstract/document/10819938)  [[Code]](https://github.com/ningq669/MHMDA/)
+    3. 【SFPred (Xuan et al., 2025)】Xuan P, Qi X, Chen S, et al. Subgraph Topology and Dynamic Graph Topology Enhanced Graph Learning and Pairwise Feature Context Relationship Integration for Predicting Disease-Related miRNAs[J]. Journal of Chemical Information and Modeling, 2025. [[Download]](https://pubs.acs.org/doi/abs/10.1021/acs.jcim.4c01757) [[Code]](https://github.com/pingxuan-hlju/SFPred)
+    4. 【HHOMR  (Li et al., 2024)】Li Z, Wan L, Wang L, et al. HHOMR: a hybrid high-order moment residual model for miRNA-disease association prediction[J]. Briefings in Bioinformatics, 2024, 25(5): bbae412.    [[Download]](https://academic.oup.com/bib/article/25/5/bbae412/7739100?login=false)   [[Code]](https://github.com/W-LP/HHOMR)
     
 - Graph Attention Network (GAT)
     
@@ -162,12 +162,7 @@ Fig 1: Classification of computational methods for MDA prediction.
     3. 【AGAEMD (Zhang et al., 2022)】 Zhang H, Fang J, Sun Y, et al. Predicting miRNA-disease associations via node-level attention graph auto-encoder[J]. IEEE/ACM Transactions on Computational Biology and Bioinformatics, 2022, 20(2): 1308-1318.  [[Download]](https://ieeexplore.ieee.org/abstract/document/9767602) [[Code]](https://github.com/Zhhuizhe/AGAEMD)
     4. 【ReHoGCNES-MDA (Zhang et al., 2024)】 Zhang Y, Chu Y, Lin S, et al. ReHoGCNES-MDA: prediction of miRNA-disease associations using homogenous graph convolutional networks based on regular graph with random edge sampler[J]. Briefings in Bioinformatics, 2024, 25(2): bbae103. [[Download]](https://academic.oup.com/bib/article/25/2/bbae103/7631472?login=false#444502587) [[Code]](https://github.com/yufangz-sjtu/ReHoGCNES-MDA)
     
-- Graph Neural Network (GNN)
-    
-    1. 【SGLMDA  (Ji et al., 2024)】Ji C, Yu N, Wang Y, et al. SGLMDA: A subgraph learning-based method for miRNA-disease association prediction[J]. IEEE/ACM Transactions on Computational Biology and Bioinformatics, 2024.   [[Download]](https://ieeexplore.ieee.org/abstract/document/10461041)  [[Code]](https://github.com/CunmeiJi/SGLMDA)
-    2. 【HHOMR  (Li et al., 2024)】Li Z, Wan L, Wang L, et al. HHOMR: a hybrid high-order moment residual model for miRNA-disease association prediction[J]. Briefings in Bioinformatics, 2024, 25(5): bbae412.    [[Download]](https://academic.oup.com/bib/article/25/5/bbae412/7739100?login=false)   [[Code]](https://github.com/W-LP/HHOMR)
-    3. 【SFPred (Xuan et al., 2025)】Xuan P, Qi X, Chen S, et al. Subgraph Topology and Dynamic Graph Topology Enhanced Graph Learning and Pairwise Feature Context Relationship Integration for Predicting Disease-Related miRNAs[J]. Journal of Chemical Information and Modeling, 2025. [[Download]](https://pubs.acs.org/doi/abs/10.1021/acs.jcim.4c01757) [[Code]](https://github.com/pingxuan-hlju/SFPred)
-    
+
 - Hypergraph Neural Network (HGNN)
     
     1. 【AMHMDA  (Ning et al., 2023)】Ning Q, Zhao Y, Gao J, et al. AMHMDA: attention aware multi-view similarity networks and hypergraph learning for miRNA–disease associations identification[J]. Briefings in Bioinformatics, 2023, 24(2): bbad094.   [[Download]](https://academic.oup.com/bib/article/24/2/bbad094/7076121?login=false#398981478)   [[Code]](https://github.com/ningq669/AMHMDA)
@@ -177,8 +172,12 @@ Fig 1: Classification of computational methods for MDA prediction.
     5. 【HeMDAP (Ma et al., 2025)】Ma Y, Wang F, Feng Q, et al. HeMDAP: Heterogeneous Graph Self-Supervised Learning for MiRNA-Disease Association Prediction[J]. IEEE Transactions on Computational Biology and Bioinformatics, 2025.    [[Download]](https://ieeexplore.ieee.org/abstract/document/10857657)  [[Code]](https://github.com/IDATA-health/HeMDAP)
     6. 【CLHGNNMDA (Zhu et al., 2025)】Zhu R, Wang Y, Dai L Y. CLHGNNMDA: Hypergraph Neural Network Model Enhanced by Contrastive Learning for miRNA–Disease Association Prediction[J]. Journal of Computational Biology, 2025, 32(1): 47-63.   [[Download]](https://www.liebertpub.com/doi/abs/10.1089/cmb.2024.0720)   [[Code]](https://github.com/zhurong1942/CLHGNNMDA_zr1)
 
-
-
+- Others
+    
+    1. 【MGCNSS (Li et al., 2024)】Tian Z, Han C, Xu L, et al. Mgcnss: mirna–disease association prediction with multi-layer graph convolution and distance-based negative sample selection strategy[J]. Briefings in Bioinformatics, 2024, 25(3): bbae168.   [[Download]](https://academic.oup.com/bib/article/25/3/bbae168/7645839?login=false) [[Code]](https://github.com/15136943622/MGCNSS/tree/master)
+    6. 【MHMDA (Li et al., 2025)】Li R, Ning Q, aomiao Zhao Y, et al. MHMDA:“Similarity-Association-Similarity” Metapaths and Heterogeneous-Hyper Network Learning for MiRNA-Disease Association Prediction[J]. IEEE Transactions on Computational Biology and Bioinformatics, 2025.   [[Download]](https://ieeexplore.ieee.org/abstract/document/10819938)  [[Code]](https://github.com/ningq669/MHMDA/)
+    2. 【SGLMDA  (Ji et al., 2024)】Ji C, Yu N, Wang Y, et al. SGLMDA: A subgraph learning-based method for miRNA-disease association prediction[J]. IEEE/ACM Transactions on Computational Biology and Bioinformatics, 2024.   [[Download]](https://ieeexplore.ieee.org/abstract/document/10461041)  [[Code]](https://github.com/CunmeiJi/SGLMDA)
+ 
 ## Welcome to contribute
 If you would like to help contribute this list, please feel free to contact me by email:
 
