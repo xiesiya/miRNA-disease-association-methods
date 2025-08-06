@@ -16,7 +16,7 @@ RNA can be divided into two categories based on its coding function: (1) RNAs wi
 ## Overview
 * We collect miRNA- and disease-related databases for MDA prediction, including miRNA-disease association databases, miRNA-related databases, and disease-related databases. 
 * We provide the first a comprehensive overview of 67 MDA prediction methods, classify them into five categories, as shown below figure 1.
-<img width="1564" height="1044" alt="classification" src="https://github.com/user-attachments/assets/a981ca2c-8e2e-42a9-a058-8e61bc3e7876" />
+<img width="3439" height="2271" alt="classification" src="https://github.com/user-attachments/assets/14fb6720-ba8e-4f04-9291-df356dbef8af" />
 Fig 1: Classification of computational methods for MDA prediction. 
 
 ## Data resources
