@@ -1,4 +1,4 @@
-# 🏎💨From Biogenesis to Algorithms: A Holistic Review of miRNA-Disease Prediction Computational Methods with Experimental Benchmarking
+# 🏎💨From Biogenesis to Deep Modeling: A Holistic Review of miRNA-Disease Prediction Computational Methods with Experimental Comparison
 
 <a href='https://github.com/xiesiya/miRNA-disease-association-methods/blob/main/README.md'></a>
 ![GitHub stars](https://img.shields.io/github/stars/xiesiya/miRNA-disease-association-methods?color=red) 
@@ -92,9 +92,8 @@ Fig 1: Classification of computational methods for MDA prediction.
 - Random Forest
     
     1. 【RFMDA (Chen et al., 2018)】Chen X, Wang C C, Yin J, et al. Novel human miRNA-disease association inference based on random forest[J]. Molecular therapy Nucleic acids, 2018, 13: 568-579.   [[Download]](https://www.cell.com/molecular-therapy-family/nucleic-acids/fulltext/S2162-2531(18)30276-2) 
-    2. 【IRFMDA (Yang et al., 2019)】Yao D, Zhan X, Kwoh C K. An improved random forest-based computational model for predicting novel miRNA-disease associations[J]. BMC bioinformatics, 2019, 20: 1-14.    [[Download]](https://link.springer.com/article/10.1186/s12859-019-3290-7) 
+    2. 【IRFMDA (Yang et al., 2019)】Yao D, Zhan X, Kwoh C K. An improved random forest-based computational model for predicting novel miRNA-disease associations[J]. BMC bioinformatics, 2019, 20: 1-14.    [[Download]](https://link.springer.com/article/10.1186/s12859-019-3290-7)
     3. 【Ji's method（GraRep-RF） (Ji et al., 2020)】Ji B Y, You Z H, Cheng L, et al. Predicting miRNA-disease association from heterogeneous information network with GraRep embedding model[J]. Scientific reports, 2020, 10(1): 6658.   [[Download]](https://www.nature.com/articles/s41598-020-63735-9)   [[Code]](https://github.com/jiboya123/working-code.git)  
-    4. 【MGCNRF (Yang et al., 2023)】Yang Y, Sun Y, Li F, et al. MGCNRF：Prediction of disease-related miRNAs based on multiple graph convolutional networks and random forest[J]. IEEE Transactions on Neural Networks and Learning Systems, 2023.    [[Download]](https://ieeexplore.ieee.org/abstract/document/10184955)   [[Code]](https://github.com/Changlong2020/ELMDA)  
     
 - XGBoost
     
@@ -144,8 +143,9 @@ Fig 1: Classification of computational methods for MDA prediction.
     
     1. 【NIMCGCN (Li et al., 2020)】 Li J, Zhang S, Liu T et al. Neural inductive matrix completion with graph convolutional networks for miRNA-disease association prediction, Bioinformatics 2020;36(8):2538-2546. [[Download]](https://academic.oup.com/bioinformatics/article/36/8/2538/5697092) [[Code]](https://github.com/ljatynu/NIMCGCN/)
     2. 【MMGCN (Tang et al., 2021)】 Tang X, Luo J, Shen C et al. Multi-view Multichannel Attention Graph Convolutional Network for miRNA–disease association prediction, Briefings in Bioinformatics 2021;22(6). [[Download]](https://academic.oup.com/bib/article-abstract/22/6/bbab174/6271996) [[Code]](https://github.com/Txinru/MMGCN)
-    3. 【SFPred (Xuan et al., 2025)】Xuan P, Qi X, Chen S, et al. Subgraph Topology and Dynamic Graph Topology Enhanced Graph Learning and Pairwise Feature Context Relationship Integration for Predicting Disease-Related miRNAs[J]. Journal of Chemical Information and Modeling, 2025. [[Download]](https://pubs.acs.org/doi/abs/10.1021/acs.jcim.4c01757) [[Code]](https://github.com/pingxuan-hlju/SFPred)
-    4. 【HHOMR  (Li et al., 2024)】Li Z, Wan L, Wang L, et al. HHOMR: a hybrid high-order moment residual model for miRNA-disease association prediction[J]. Briefings in Bioinformatics, 2024, 25(5): bbae412.    [[Download]](https://academic.oup.com/bib/article/25/5/bbae412/7739100?login=false)   [[Code]](https://github.com/W-LP/HHOMR)
+    3. 【MGCNRF (Yang et al., 2023)】Yang Y, Sun Y, Li F, et al. MGCNRF：Prediction of disease-related miRNAs based on multiple graph convolutional networks and random forest[J]. IEEE Transactions on Neural Networks and Learning Systems, 2023.    [[Download]](https://ieeexplore.ieee.org/abstract/document/10184955)   [[Code]](https://github.com/Changlong2020/ELMDA)
+    4. 【SFPred (Xuan et al., 2025)】Xuan P, Qi X, Chen S, et al. Subgraph Topology and Dynamic Graph Topology Enhanced Graph Learning and Pairwise Feature Context Relationship Integration for Predicting Disease-Related miRNAs[J]. Journal of Chemical Information and Modeling, 2025. [[Download]](https://pubs.acs.org/doi/abs/10.1021/acs.jcim.4c01757) [[Code]](https://github.com/pingxuan-hlju/SFPred)
+    5. 【HHOMR  (Li et al., 2024)】Li Z, Wan L, Wang L, et al. HHOMR: a hybrid high-order moment residual model for miRNA-disease association prediction[J]. Briefings in Bioinformatics, 2024, 25(5): bbae412.    [[Download]](https://academic.oup.com/bib/article/25/5/bbae412/7739100?login=false)   [[Code]](https://github.com/W-LP/HHOMR)
     
 - Graph Attention Network (GAT)
     
