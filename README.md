@@ -149,9 +149,8 @@ Fig 1: Classification of computational methods for MDA prediction.
     
 - Graph Attention Network (GAT)
     
-    1. 【MKGAT (Luo et al., 2022)】Wang W, Chen H. Predicting miRNA-disease associations based on graph attention networks and dual Laplacian regularized least squares[J]. Briefings in Bioinformatics, 2022, 23(5): bbac292.   [[Download]](https://academic.oup.com/bib/article/23/5/bbac292/6645486?login=false)   [[Code]](https://github.com/shine-lucky/MKGAT-main)
-    2. 【HGANMDA (Li  et al., 2022)】 Li Z, Zhong T, Huang D et al. Hierarchical graph attention network for miRNA-disease association prediction, Molecular Therapy 2022;30(4):1775-1786. [[Download]](https://www.sciencedirect.com/science/article/pii/S1525001622000806) [[Code]](https://github.com/ZTangBo/HGANMDA)
-    3. 【GRPAMDA  (Zhong et al., 2022)】 Zhong T, Li Z, You Z-H et al. Predicting miRNA-disease associations based on graph random propagation network and attention network, Briefings in Bioinformatics 2022;23(2). [[Download]](https://academic.oup.com/bib/article-abstract/23/2/bbab589/6515233) [[Code]](https://github.com/ZTangBo/GRPAMDA)
+    1. 【HGANMDA (Li  et al., 2022)】 Li Z, Zhong T, Huang D et al. Hierarchical graph attention network for miRNA-disease association prediction, Molecular Therapy 2022;30(4):1775-1786. [[Download]](https://www.sciencedirect.com/science/article/pii/S1525001622000806) [[Code]](https://github.com/ZTangBo/HGANMDA)
+    2. 【GRPAMDA  (Zhong et al., 2022)】 Zhong T, Li Z, You Z-H et al. Predicting miRNA-disease associations based on graph random propagation network and attention network, Briefings in Bioinformatics 2022;23(2). [[Download]](https://academic.oup.com/bib/article-abstract/23/2/bbab589/6515233) [[Code]](https://github.com/ZTangBo/GRPAMDA)
     
     
 - Graph Autoencoder (GAE)
