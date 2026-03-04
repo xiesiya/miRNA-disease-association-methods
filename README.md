@@ -1,5 +1,7 @@
 # 🏎💨From Biogenesis to Deep Modeling: A Holistic Review of miRNA-Disease Prediction Computational Methods with Experimental Comparison
 
+Link: [From biogenesis to deep modeling: a holistic review of miRNA…](https://academic.oup.com/bib/article/27/1/bbaf736/8429901?login=false&guestAccessKey=)
+
 <a href='https://github.com/xiesiya/miRNA-disease-association-methods/blob/main/README.md'></a>
 ![GitHub stars](https://img.shields.io/github/stars/xiesiya/miRNA-disease-association-methods?color=red) 
 ![GitHub forks](https://img.shields.io/github/forks/xiesiya/miRNA-disease-association-methods?color=green&label=Fork)
